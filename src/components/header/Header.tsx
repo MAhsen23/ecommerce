@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import { Search, ShoppingCart, User, Menu, X } from 'lucide-react';
+import Link from 'next/link';
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,7 +9,7 @@ const Header = () => {
 
     return (
         <header className="py-4 max-w-7xl mx-auto">
-            <div className="container mx-auto px-4 lg:px-12">
+            <div className="px-4">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex-shrink-0">
                         <a href="/" className="text-2xl font-bold text-primary">
@@ -18,9 +19,9 @@ const Header = () => {
 
                     <nav className="hidden md:flex space-x-4 lg:space-x-8">
                         {['Home', 'Shop', 'About', 'Contact'].map((item) => (
-                            <a key={item} href={`/${item.toLowerCase().replace(' ', '-')}`} className="text-text hover:text-primary transition-colors duration-200">
+                            <Link key={item} href={`/${item.toLowerCase().replace(' ', '-')}`} className="text-text hover:text-primary transition-colors duration-200">
                                 {item}
-                            </a>
+                            </Link>
                         ))}
                     </nav>
 

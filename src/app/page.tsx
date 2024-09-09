@@ -8,9 +8,9 @@ import BenefitsSection from '@/components/keybenfits/BenefitsSection';
 
 const Home = () => {
   return (
-    <div>
+    <>
       <div className='mx-4'>
-        <HeroSection />
+        <HeroSection showContent={true} isRounded={true} />
       </div>
       <div className="container mx-auto px-4">
         <FeaturedProducts />
@@ -19,7 +19,7 @@ const Home = () => {
         <BenefitsSection />
         <Testimonials />
       </div>
-    </div>
+    </>
   );
 };
 

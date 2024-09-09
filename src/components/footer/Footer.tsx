@@ -3,8 +3,8 @@ import { Facebook, Twitter, Instagram, MapPin, Phone, Mail } from 'lucide-react'
 
 const Footer = () => {
     return (
-        <footer className="bg-[#FCFCFC] text-opacity-90 py-8 px-8">
-            <div>
+        <footer className="bg-[#FCFCFC] text-opacity-90 py-8">
+            <div className='max-w-7xl mx-auto px-4'>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                     <div>
                         <h3 className="text-2xl font-bold mb-4 text-primary">MyStore</h3>

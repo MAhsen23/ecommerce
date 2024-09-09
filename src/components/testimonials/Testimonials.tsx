@@ -53,7 +53,7 @@ const Testimonials = () => {
     const { name, rating, comment } = testimonials[currentIndex];
 
     return (
-        <section className="my-28 mx-auto max-w-7xl px-4">
+        <section className="my-28 mx-auto max-w-7xl">
             <div className="mb-8">
                 <h2 className="text-2xl font-bold md:font-extrabold md:text-4xl mb-4 text-center">Customers Feedback</h2>
                 <div className="text-center text-sm md:text-base text-textLight">

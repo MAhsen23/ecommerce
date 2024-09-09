@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 
 const PromoSection = () => {
     return (
-        <section className="my-28 px-4">
+        <section className="my-28">
             <div>
                 <div className="bg-background border border-border rounded-lg overflow-hidden">
                     <div className="flex flex-col md:flex-row items-center justify-between px-8 py-12">

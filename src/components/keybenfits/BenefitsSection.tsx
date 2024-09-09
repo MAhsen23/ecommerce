@@ -25,7 +25,7 @@ const BenefitsSection = () => {
     ];
 
     return (
-        <section className="lg:py-8 mx-auto max-w-7xl py-4 px-4">
+        <section className="lg:py-8 mx-auto max-w-7xl py-4">
             <div className="max-w-7xl mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {features.map((feature, index) => (
