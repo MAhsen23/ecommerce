@@ -9,8 +9,16 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: '#FE624D',
+        secondary: '#F8B400',
+        accent: '#4D8CFE',
+        background: '#FFFDD0',
+        text: '#333333',
+        textLight: '#6B7280',
+        border: '#DDDDDD',
+        hover: '#E03B2A',
+        success: '#4CAF50',
+        error: '#F44336',
       },
     },
   },
